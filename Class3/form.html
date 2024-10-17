@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label>Name:</label><br><br>
+            <input type="text" placeholder="Enter your name" required><br><br>
+            <label>Email:</label><br><br>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <label>Secret Key:</label><br><br>
+            <input type="password" placeholder="Enter your admission roll" required><br><br>
+            <label>Student ID:</label><br><br>
+            <input type="number" placeholder="Enter your student ID"><br><br>
+            <label>Department:</label>
+            <select>
+                <option value="">Please Select</option>
+                <option value="CSE">Computer Science and Engineering</option>
+                <option value="EEE">Electrical and Electronics Engineering</option>
+                <option value="BBA">Bachelor of Business Administration</option>
+                <option value="ENG">English</option>
+            </select><br><br>
+            <label>Year Level:</label>
+            <input type="radio" name="year" value="1st">1st
+            <input type="radio" name="year" value="2nd">2nd
+            <input type="radio" name="year" value="3rd">3rd
+            <input type="radio" name="year" value="4th">4th<br><br>
+            <label>Date of Birth:</label><br>
+            <input type="date" required><br><br>
+            <label>Nationality:</label><br>
+            <input type="text" placeholder="Enter your nationality"><br><br>
+            <label>Address:</label><br>
+            <textarea rows="5" cols="60" placeholder="Enter your address"></textarea><br><br>
+            <label>Profile Picture:</label>
+            <input type="file"><br><br>
+            <label>Previous Academic Certificates:</label>
+            <input type="file" multiple><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

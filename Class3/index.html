@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class3</title>
+    </head>
+    <body>
+        <h1>Hello Again!</h1>
+        <p>This is what we learnt on Class 3:</p>
+        <ul>
+            <li>Anchor tag vs Inline Frame tag</li>
+            <li>Video and Audio tags</li>
+            <li>Marquee tag</li>
+            <li>Form creation and the various elements of form</li>
+        </ul>
+        <p>Now let's see these topics in actions.</p>
+        <h3>Anchor tag:</h3>
+        <p>The anchor tag or &lt;a&gt; tag is used to hyperlink external links to a text. The attribute target="_blank" enables new tab opening.</p>
+        <p>For example, here's a link directing to the page detailing this tag: <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">Anchor tags in detail</a></p>
+        <h3>Inline Frame tag:</h3>
+        <p>The inline frame tag or &lt;iframe&gt; tag creates an interactable frame within the current html page to display or utilize contents found in the internet allowed to be shared by the owners. This can be anything from youtube videos and google maps locations to full blown websites and documents.</p>
+        <p>For example, here's an iframe displaying a youtube video along with a map location:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aRGdDy18qfY?si=Vg7JzwQNKDfe31MO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29191.53749202088!2d90.39009953311029!3d23.85618661229539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c691ba478fbd%3A0xd1b3f71371eb15ec!2sHazrat%20Shahjalal%20International%20Airport!5e0!3m2!1sen!2sbd!4v1729175456589!5m2!1sen!2sbd" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Video and Audio tags:</h3>
+        <p>The video and audio tags are used to embed videos and audios in the html page. The controls attribute enables the user to play, pause, and adjust the volume of the media.<br>
+        Note that a video file with mp4 format can be easily converted to an audio file just by changing the file extension to mp3. This process is irreversible though.
+        </p>
+        <p>For example, here's a video and an audio file:</p>
+        <video width="560" height="315" controls>
+            <source src="/video/Have you ever had a dream like this.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="/video/Have you ever had a dream like this.mp3" type="audio/mp3">
+        </audio>
+        <h3>Marquee tag</h3>
+        <p>The marquee tag is used to create a scrolling text or image. The attributes direction="up", "down", "left", "right" and behavior="scroll", "slide", "alternate" can be used to customize the scrolling effect.</p>
+        <p>For example, here's a marquee tag displaying a scrolling text and in different directions:</p>
+        <marquee behavior="scroll" direction="left" width="50%">I'm scrolling left</marquee>
+        <marquee behavior="slide" direction="right" width="51%">I'm sliding right and will stop at the end</marquee>
+        <marquee behavior="alternate" direction="down">I'm alternating up and down</marquee>
+        <p>Adding the onmouseup, onmousedown, onmouseover, onmouseout and onClick events, we can controll the start and stop of marquee content. This one stops if mouse is hovered over it:</p>
+        <marquee behavior="scroll" direction="right" onmouseover="this.stop()" onmouseout="this.start()">Catch me</marquee>
+        <h3>Forms:</h3>
+        <p>Finally we have the forms which are used to collect user input. The &lt;form&gt; tag is used to create a form. The input tag or &lt;input&gt; tag is used to create input fields within the form. The type attribute of the input tag is used to specify the type of input field. The value attribute of the input tag is used to specify the default value of the input field. The name attribute of the input tag is used to specify the name of the input field. The placeholder attribute of the input tag is used to specify a hint to the user about what to enter in the input field. The required attribute of the input tag is used to specify that the input field must be filled out before submitting the form. The form tag has an action attribute which specifies the URL of the page the form is submitted to. The form tag has a method attribute which specifies the HTTP method used when submitting the form.</p>
+        <p>Here's the link to a dummy registration form I created: <a href="form.html">Register Now!</a></p>
+    </body>
+    <footer>
+        <p>That's all for today. See you next time!</p>
+    </footer>
+</html>
