@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Nested Tables</title>
+</head>
+<body>
+    <h1>Hello again, everyone</h1>
+    <p>Today we learnt about table creation using the &lt;table&gt; tag along with it's children tags &lt;tr&gt;, &lt;th&gt; and &lt;td&gt; tags
+    <br> We also learnt about the attributes of the &lt;table&gt; tag like border, cellpadding, cellspacing, width and height
+    <br> Using the concept of nested tables, we are able to create a basic layout of a website by dividing the page into different sections of varing width and height, each of which can be further divided into more sections and filled up with relevant content.
+    <br> Here's a website layout using nested tables below:
+    </p>
+    <table width="100%" height="100%">
+        <tr>
+            <th>Initial Layout</th>
+            <th>Completed Site</th>
+        </tr>
+        <tr>
+            <td align="left">
+                <table width="600" height="700" align="center" border="1">
+                    <tr>
+                        <td width="600" height="80">
+                            <table width="600" height="80" border="1">
+                                <tr>
+                                    <td width="160" height="80" align="center">Logo</td>
+                                    <td width="110" height="80" align="center">Home</td>
+                                    <td width="110" height="80" align="center">About</td>
+                                    <td width="110" height="80" align="center">Gallery</td>
+                                    <td width="110" height="80" align="center">Contact</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="200" align="center">Banner</td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="150">
+                            <table width="600" height="150" align="center" border="1">
+                                <tr>
+                                    <td width="300" align="center">Image</td>
+                                    <td width="300" align="center">Text Content</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="150">
+                            <table align="center" border="1">
+                                <tr>
+                                    <td width="200" height="150" align="center">Embedded youtube video</td>
+                                    <td width="200" height="150" align="center">Simple form</td>
+                                    <td width="200" height="150" align="center">Nested Table</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="70" align="center">Map</td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="50" align="center">Copyright</td>
+                    </tr>
+                </table>
+            </td>
+            <td align="right">
+                <table width="600" height="700" align="center">
+                    <tr>
+                        <td width="600" height="80">
+                            <table width="600" height="80" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="160" height="80" align="center">
+                                        <img src="./content/mhw_logo.jpg" width="160" height="80">
+                                    </td>
+                                    <td width="110" height="80" align="center"><a href>Home</a></td>
+                                    <td width="110" height="80" align="center"><a href>About</a></td>
+                                    <td width="110" height="80" align="center"><a href>Gallery</td>
+                                    <td width="110" height="80" align="center"><a href>Contact</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="200" align="center">
+                            <img src="./content/mhw_banner.jpeg" width="600" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="150">
+                            <table width="600" height="150" align="center" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="300" align="center">
+                                        <img src="./content/mhw_image.jpg" width="300" height="150">
+                                    </td>
+                                    <td width="300" align="center">
+                                        <p>Fulfill your duty as a Hunter by tracking and defeating powerful monsters and forging strong new weapons and armor from the materials you harvest from your hunt.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="150">
+                            <table align="center" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="200" height="150" align="center">
+                                        <iframe width="200" height="150" src="https://www.youtube.com/embed/GCVThKH4Xkk?si=YbPOEFQPOplPZS8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </td>
+                                    <td width="200" height="150" align="center">
+                                        <p>Signup for more news about this title</p>
+                                        <form>
+                                            <label>Name:</label>
+                                            <input type="text" placeholder="Enter your name">
+                                            <label>Email:</label>
+                                            <input type="email" placeholder="Enter your email">
+                                            <button type="submit">Submit</button>
+                                        </form>
+                                    </td>
+                                    <td width="200" height="150" align="center">
+                                        <table cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="200" height="75" bgcolor="red"></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" height="75">
+                                                    <table>
+                                                        <tr>
+                                                            <td width="100" height="75" bgcolor="orange"></td>
+                                                            <td width="100" height="75">
+                                                                <table cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="100" height="37.5" bgcolor="yellow"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td width="100" height="37.5">
+                                                                            <table cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td width="50" height="37.5" bgcolor="green"></td>
+                                                                                    <td width="50" height="37.5">
+                                                                                        <table cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td width="50" height="18.75" bgcolor="blue"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td width="50" height="18.75">
+                                                                                                    <table cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td width="25" height="18.75" bgcolor="violet"></td>
+                                                                                                            <td width="25" height="18.75">
+                                                                                                                <table cellspacing="0" cellpadding="0">
+                                                                                                                    <tr>
+                                                                                                                        <td width="25" height="9.375" bgcolor="indigo"></td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td width="25" height="9.375" bgcolor="black"></td>
+                                                                                                                    </tr>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="70" align="center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64255874.65736258!2d20.2586993!3d10.589542849999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7810011124c05%3A0x8f36555fda4a1b5a!2sCAPCOM!5e0!3m2!1sen!2sbd!4v1729447299567!5m2!1sen!2sbd" width="600" height="70" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="600" height="50" align="center">
+                            <p>&copy; 2025 Monster Hunter Wilds. All rights reserved.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
