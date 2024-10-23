@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <P class="intro">Hello! Today we jumped into the realm of CSS.
+        The things we have learnt today are:</P>
+    <ul class="topics">
+        <li>What is CSS?</li>
+        <li>How to include CSS in HTML?</li>
+        <li>What are the different types of CSS?</li>
+        <li>What are the different ways to include CSS in HTML?</li>
+        <li>What are selectors, properties and values in CSS</li>
+    </ul>
+    <h3 class="titles">CSS:</h3>
+    <p>CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+
+
+    <h3 class="titles">Types of CSS:</h3>
+    <ul>
+        <li>Inline CSS:
+            <p>Inline CSS is used to apply a unique style to a single HTML element. It is applied using the style attribute of the HTML tag. For example:</p>
+            <pre>
+                &lt;h3 style="color: red; text-align:center"&gt;This is a heading&lt;/h3&gt;
+            </pre>
+        </li>
+        <li>Internal CSS:
+            <p>Internal CSS is used to apply a unique style to a single HTML page. It is applied using the style tag in the head section of the HTML page. For example:</p>
+            <pre>
+                &lt;style&gt;
+                    h3 {
+                                    color: red;
+                    }
+                &lt;/style&gt;
+            </pre>
+        </li>
+        <li>External CSS:
+            <p>External CSS is used to apply a unique style to multiple HTML pages. This is the most preferred and commonly used method for applying CSS to html. It is applied using a separate CSS file. The external CSS file is linked to the html file using the following statement.</p>
+            <pre>
+                &lt;link rel="stylesheet" href="styles.css"&gt;
+            </pre>
+        </li>
+    </ul>
+
+    <h3 class="titles">Selectors, Properties and Values in CSS:</h3>
+    <p>Selector: A selector is an HTML tag at which a style will be applied. This could be any tag like h1, h2, div etc.</p>
+    <p>Properties: Properties are the styles that you can apply to the selector. For example, color, font-size, background-color etc.</p>
+    <p>Values: Values are the assigned values to the properties. For example, if the property is color, the value could be red, green, blue etc.</p>
+    <h3>Example:</h3>
+    <p>Let's say we want to change the color of all the h1 tags to red. The CSS code for this would be:</p>
+    <pre>
+        h1 {
+                        color: red;
+        }
+    </pre>
+    <p>Here, h1 is the selector, color is the property and red is the value.</p>
+    <p>There are 3 kinds of selectors and each one of them have their own calls. These are:</p>
+    <ul>
+        <li>Element Selector</li>
+        <li>Class Selector</li>
+        <li>ID Selector</li>
+    </ul>
+    <p>Element Selector: This selects all the elements of a particular type. For example, if we want to select all the h1 tags, the selector would be</p><div>h1</div>
+    <p>Class Selector: This selects all the elements with a particular class. For example, if we want to select all the elements with the class name "heading", the selector would be</p><div>.heading</div>
+    <p>ID Selector: This selects a single element with a particular ID. For example, if we want to select the element with the ID "main-heading", the selector would be </p><div>#main-heading</div>
+    <p>The ID selector has the highest priority, followed by the Class selector and finally the Element Selector. If a single selector is affected by multiple properties and values, then the value at the last of the list will be the one that will remain active.<br>
+    Only a single ID selector can be used per element but there is no limit to the number of Class selectors. So, multiple Class selectors can be used for a single element to carry over previous CSS styles and customize a new one.</p>
+    <h3 class="titles">For more details: <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial by w3schools</a></h3>
+    <p class="intro">That's all for today. We will be diving deeper into CSS in the next class. Till then, keep practicing!</p>
+</body>
+</html>

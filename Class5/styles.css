@@ -1,0 +1,59 @@
+body{
+    list-style-type: none;
+    color: black;
+    background-color: rgb(43, 168, 226);
+}
+ul{
+    list-style-type: none;
+    color: black;
+    background-color: rgb(43, 168, 226);
+    font-size: large;
+    font-family:cursive;
+    text-align: justify;
+}
+.titles{
+    list-style-type: none;
+    color: black; 
+    text-align: center;
+    font-size: xx-large;
+}
+p{
+    list-style-type: none;
+    color: black; 
+    background-color: rgb(43, 168, 226);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+.topics{
+    list-style-type: none;
+    color: black;
+    background-color: skyblue;
+    font-size: larger; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+pre{
+    list-style-type: none;
+    color:black;
+    background-color: skyblue;
+    font-size: large;
+    text-align: center;
+}
+.intro{
+    list-style-type: none;
+    color: black;
+    background-color: rgb(43, 168, 226);
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+div{
+    list-style-type: none;
+    color: black;
+    background-color: skyblue;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
