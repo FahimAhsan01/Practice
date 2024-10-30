@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:aquamarine;
+}
+.main_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    width: 700px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 280px;
+    height: 280px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    width: 150px;
+}
+.circle img:hover{
+    animation: rotation 1s infinite;
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.menu{
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+}
+.menu ul,ol{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+}
+.menu ul li a{
+    color: black;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    background-color: red;
+}
+.menu ul li a:focus{
+    background-color: red;
+}
+.dropdown{
+    display: none;
+}
+.menu ul li:hover .dropdown{
+    display: block;
+    background-color: skyblue;
+}
+.menu ul li .dropdown ul{
+    display: block;
+    position: relative;
+    background-color: skyblue;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
